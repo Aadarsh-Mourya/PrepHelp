@@ -11,7 +11,7 @@ with open('skills_questions.json', 'r') as file:
     skills_data = json.load(file)
 
 app = Flask(__name__)
-app.secret_key = 'SachitPandya@1801_'  
+app.secret_key = 'AdarshMourya_123'
 
 
 rf_classifier_categorization = pickle.load(open('models/rf_classifier_categorization.pkl', 'rb'))
