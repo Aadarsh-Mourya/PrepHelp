@@ -3,10 +3,8 @@ from PyPDF2 import PdfReader
 import re
 import pickle
 import json
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 from flask import session
-from flask import jsonify
+
 
 
 with open('skills_questions.json', 'r') as file:
