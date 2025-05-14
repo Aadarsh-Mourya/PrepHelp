@@ -5,8 +5,6 @@ import pickle
 import json
 from flask import session
 
-
-
 with open('skills_questions.json', 'r') as file:
     skills_data = json.load(file)
 
